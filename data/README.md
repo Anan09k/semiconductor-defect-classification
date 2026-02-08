@@ -12,5 +12,4 @@ test/
 Each split contains subfolders corresponding to defect classes such as
 Clean/Normal, Bridge, Opens, Particle, LER, CMP, and other defect categories. Each category consists of 100 images, split into 70 in train, 15 in test, 15 in val.
 
-The dataset is provided separately as a single ZIP file as per the
-submission guidelines and is not hosted in this repository.
+The dataset is provided separately as a single ZIP file.
