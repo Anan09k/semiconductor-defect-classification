@@ -1,1 +1,16 @@
+Model: MobileNetV2 (width multiplier = 0.5)
+Classes: 8
+
+Test Set Results:
+Accuracy: 98.3%
+Macro Precision: 0.985
+Macro Recall: 0.983
+Macro F1-score: 0.983
+
+Model Size:
+FP32 ONNX: ~2.9 MB
+FP16 ONNX: 1.58 MB
+
+Deployment Target:
+NXP i.MX RT series (via eIQ and TensorFlow Lite Micro)
 
