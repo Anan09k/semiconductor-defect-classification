@@ -14,21 +14,21 @@ We built a multi-class classifier to detect and categorize semiconductor wafer d
 - Images are organized in:
 - dataset/
 ├── train/
-│ └── <class folders>
+│ └── class folders
 ├── val/
-│ └── <class folders>
+│ └── class folders
 └── test/
-└── <class folders>
+└── class folders
 
 ## Model Architecture
-- Custom classifier based on MobileNetV2 (width multiplier = 0.5).
+- Custom classifier based on MobileNetV2 (width multiplier = 0.5) trained from scratch.
 - Input: grayscale SEM image resized to 224×224.
 - Lightweight design for edge inference.
 
 ## Training
-- Framework: PyTorch
-- Augmentation: rotation, flips, mild brightness/contrast
-- Training hardware: Google Colab GPU environment.
+- **Framework**: PyTorch
+- **Augmentation**: rotation, flips, mild brightness/contrast
+- **Training hardware**: Google Colab GPU environment.
 
 ## Model Export & Compression
 - The trained model was exported to ONNX.
